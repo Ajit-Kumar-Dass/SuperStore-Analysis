@@ -1,26 +1,30 @@
-# 📊 SuperStore Sales Analysis (Power BI)
+# 📊 HR Analytics Dashboard (Power BI)
 
 ## 📌 Overview
 
-This project presents an interactive **Power BI dashboard** built on the popular SuperStore dataset. The goal is to transform raw sales data into meaningful insights that help understand business performance across products, regions, and customer segments.
+This project showcases an interactive **Power BI dashboard** built to analyze HR data and uncover meaningful workforce insights. The aim is to turn raw employee data into a clear and structured view of organizational performance, helping in better decision-making.
 
-The dashboard focuses on answering key business questions related to **sales, profit, customer behavior, and regional performance**, enabling better data-driven decision-making.
+The dashboard focuses on key HR areas such as **employee distribution, performance, promotion eligibility, and retention trends**, making it easier to identify patterns and take action where needed.
 
 ---
 
 ## 🎯 Objectives
 
-* Analyze overall sales and profit trends
-* Identify top-performing products and categories
-* Understand regional performance and contribution
-* Evaluate the impact of discounts on profitability
-* Explore customer segments and purchasing patterns
+* Analyze employee distribution across departments and roles
+* Identify employees eligible for promotion or retrenchment
+* Understand employee satisfaction and performance trends
+* Highlight factors affecting retention and workforce stability
 
 ---
 
 ## 📁 Project Files
 
-* `SuperStore Analysis.pbix` → Main Power BI dashboard file
+* `HR_analytics_dashboard.pbix` → Main Power BI dashboard file
+* `Employee_data.csv` → Employee dataset
+* `HR_Analytics_Data.csv` → Core HR analytics data
+* `Retrenched_employees.csv` → Retrenchment-related data
+* `Due_for_promotion&retrenchment.xlsx` → Promotion insights
+* `Screenshot.jpg` → Dashboard preview
 * `README.md` → Project documentation
 
 > Open the `.pbix` file in Power BI Desktop to explore the dashboard interactively.
@@ -30,7 +34,7 @@ The dashboard focuses on answering key business questions related to **sales, pr
 ## 🛠️ Tools & Technologies
 
 * **Power BI Desktop**
-* **Data Modeling**
+* **Power Query (ETL)**
 * **DAX (Data Analysis Expressions)**
 * **Data Visualization Techniques**
 
@@ -38,44 +42,42 @@ The dashboard focuses on answering key business questions related to **sales, pr
 
 ## 📊 Dashboard Features
 
-The Power BI report includes multiple interactive visuals and KPIs:
+The report includes multiple interactive visuals designed to give a complete picture of HR data:
 
 ### 🔹 Key Metrics
 
-* Total Sales
-* Total Profit
-* Total Orders
-* Profit Margin
+* Total Employees
+* Employees Due for Promotion
+* Retrenchment Count
+* Overall Workforce Insights
 
-### 🔹 Sales Analysis
+### 🔹 Employee Distribution
 
-* Sales trends over time
-* Category and sub-category performance
-* Top products by revenue
+* Department-wise employee count
+* Job roles and education breakdown
+* Age group segmentation
 
-### 🔹 Regional Insights
+### 🔹 Promotion & Retrenchment Analysis
 
-* Sales distribution across regions
-* Region-wise profit comparison
+* Employees eligible for promotion
+* Employees at risk of retrenchment
+* Workforce planning indicators
 
-### 🔹 Customer Insights
+### 🔹 Employee Performance & Feedback
 
-* Segment-wise sales (Consumer, Corporate, Home Office)
-* Customer contribution analysis
-
-### 🔹 Profitability Analysis
-
-* Profit vs Discount relationship
-* Loss-making categories and products
+* Job satisfaction levels
+* Work-life balance insights
+* Performance ratings
+* Key drivers impacting retention
 
 ---
 
 ## 🔍 Key Insights
 
-* Certain categories generate high sales but low profit, indicating margin issues
-* Discounts have a noticeable impact on profitability
-* A few regions contribute significantly more to overall revenue
-* Customer segments show different purchasing behaviors
+* Helps identify employees who are ready for promotion
+* Highlights potential retrenchment cases for early action
+* Reveals patterns in employee satisfaction and performance
+* Provides a clearer picture of workforce structure and gaps
 
 ---
 
@@ -83,7 +85,7 @@ The Power BI report includes multiple interactive visuals and KPIs:
 
 1. Download or clone this repository
 2. Open the `.pbix` file using **Power BI Desktop**
-3. Interact with filters, slicers, and visuals to explore insights
+3. Use filters and slicers to explore different insights
 
 ---
 
@@ -91,23 +93,17 @@ The Power BI report includes multiple interactive visuals and KPIs:
 
 This project can be useful for:
 
-* Practicing **data analysis and visualization**
-* Understanding **business intelligence workflows**
-* Showcasing **Power BI skills in a portfolio**
-* Learning how to derive insights from sales data
+* Practicing **HR data analysis**
+* Building a **Power BI portfolio project**
+* Understanding **workforce analytics**
+* Demonstrating **data-driven decision-making skills**
 
 ---
 
 ## 📈 Future Improvements
 
-* Add advanced DAX measures for deeper insights
-* Include forecasting and trend analysis
-* Enhance dashboard design and storytelling
-* Integrate additional datasets for richer analysis
-
----
-
-## 🤝 Contributing
-
-Suggestions and improvements are always welcome. Feel free to fork the repository and submit a pull request.
+* Add advanced DAX measures for deeper HR insights
+* Include predictive analysis for attrition
+* Improve dashboard storytelling and UI
+* Integrate additional HR datasets
 
