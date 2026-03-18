@@ -1,7 +1,3 @@
-I checked your repository and its structure to understand what you’ve actually built (Power BI dashboard using a Superstore dataset, with a `.pbix` file and visual analysis focus). Based on that, here’s a clean, human-written README you can directly paste into your repo.
-
----
-
 # 📊 SuperStore Sales Analysis (Power BI)
 
 ## 📌 Overview
